@@ -5,8 +5,9 @@ body
    margin    : 0px;
 }
 
-*
-{
+*{
+   font-family: Segoe UI Light, "Calibri Light", sans-serif;
+   font-weight: bold;
    margin         : 0px;
    padding   : 10px 20px;
    text-decoration: none;
@@ -17,49 +18,54 @@ body
 table
 {
    text-align: center;
+   width      : 75%;   
 }
 
 tr td
 {
    color      : #444;
-   width      : 20px;   
+   width      : auto;   
    border     : 2px solid #A6A6A6;
    margin     : 10px 0;
    padding    : 0px 10px;
-   font-family: 'Open Sans';
-   font-size  : 18px;
+   font-size  : 20px;
    text-align : left;
 }
 
 tr td:hover
 {
    color       : #CACACA;
-   background  : rgb(109, 108, 108);
+   background : #729192;
 }
 
-.ukol
+.smazat
 {
-   width      : 300px;   
+   width      : 20px;
+}
+
+.datum
+{
+   width      : 100px;
+   text-align : right;
 }
 
 .nesplneno
 {
    opacity    : 0.3;   
+   width      : 20px;
 }
 
 .splneno
 {
    background : #8dbbf0;
-   color      : whitesmoke;
-   width      : 20px;
    opacity    : 1;   
+   width      : 20px;
 }
 
 .splneno:hover
 {
    background : #729192;
    color      : whitesmoke;
-   width      : 20px;   
 }
 
 img {
@@ -67,4 +73,20 @@ img {
    width: 25px;
    height: 30px;
    padding: 0px;
+}
+
+.nove-zadani {
+   text-align: center;
+   background: #2792e0;
+   color: #fff;
+   cursor: pointer;
+   transition: .5s;
+}
+
+.nove-zadani:hover {
+   background: #2954c2;
+}
+
+.nove-zadani:active {
+   background: #081435;
 }
